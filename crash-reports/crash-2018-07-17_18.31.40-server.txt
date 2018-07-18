@@ -1,0 +1,75 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  SpongeCoremod (spongeforge-1.10.2-2202-5.1.0-BETA-2039.jar)
+Contact their authors BEFORE contacting forge
+
+// Shall we play a game?
+
+Time: 18-7-17 下午6:31
+Description: Exception in server tick loop
+
+Wrong Minecraft Versions!
+Mod: ic2
+Location: E:\游戏\mc\Sponge-1.10.2\Sponge-1.10.2\mods\industrialcraft-2-2.8.89-ex112.jar
+Expected: [1.12,1.12]
+Current: Minecraft 1.10.2
+
+net.minecraftforge.fml.common.WrongMinecraftVersionException: Wrong Minecraft version for ic2
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:241)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:526)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_171, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3032691584 bytes (2892 MB) / 4116185088 bytes (3925 MB) up to 4116185088 bytes (3925 MB)
+	JVM Flags: 2 total; -Xms4096M -Xmx4096M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.3.2215 28 mods loaded, 28 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	U	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	U	FML{8.0.99.99} [Forge Mod Loader] (forge-1.10.2-12.18.3.2215-universal.jar) 
+	U	Forge{12.18.3.2215} [Minecraft Forge] (forge-1.10.2-12.18.3.2215-universal.jar) 
+	U	spongeapi{5.1.0-SNAPSHOT-b7a6e54} [SpongeAPI] (minecraft.jar) 
+	U	sponge{1.10.2-2202-5.1.0-BETA-2039} [SpongeForge] (spongeforge-1.10.2-2202-5.1.0-BETA-2039.jar) 
+	U	nucleus-mixin{0.15.0-5.0} [Nucleus Mixins] (【P】[基础附属]NucleusMixins-0.15.0-S5-mixinplugin.jar) 
+	U	ic2{2.8.89-ex112} [IndustrialCraft 2] (industrialcraft-2-2.8.89-ex112.jar) 
+	U	pixelmon{5.0.0} [Pixelmon] (Pixelmon-1.10.2-5.0.0-universal.jar) 
+	U	serverlistplus{3.4.7} [ServerListPlus] (【P】[motd]ServerListPlus-3.4.7-Universal.jar) 
+	U	pjp{0.13.6} [ProjectPortals] (【P】[传送门·汉化]projectportals-5.1.0-0.13.6.jar) 
+	U	holograms{v2.0} [Holograms] (【P】[全息图]holograms-v2.0.jar) 
+	U	worldedit{6.1.5-SNAPSHOT} [WorldEdit] (【P】[创世神]worldedit-sponge-mc1.10.2-6.1.5-SNAPSHOT-dist.jar) 
+	U	statusprotocol{0.3} [StatusProtocol] (【P】[前置]statusprotocol-0.3.jar) 
+	U	twentyticks{1.1.0} [Twenty Ticks] (【P】[区块清理]twentyticks.jar) 
+	U	plotsquared{3.5.0-SNAPSHOT} [PlotSquared] (【P】[地皮]PlotSquared-Sponge-3.5.1-SNAPSHOT-47db330.jar) 
+	U	nucleus{0.19.1-5.0-SNAPSHOT} [Nucleus] (【P】[基础插件]Nucleus-0.19.1-S5.1-1.10.2-plugin.jar) 
+	U	pjw{0.11.4} [ProjectWorlds] (【P】[多世界]projectworlds-5.1.0-0.11.4.jar) 
+	U	tmotd{1.0} [TitleMOTD] (【P】[大字标题]TitleMOTD.-.1.0.jar) 
+	U	customcommands{1.0} [CustomCommands] (【P】[权限插件·汉化]PermissionManager-2.5.3-API-5.X-6.X.jar) 
+	U	permissionmanager{2.5.3} [PermissionManager] (【P】[权限插件·汉化]PermissionManager-2.5.3-API-5.X-6.X.jar) 
+	U	inspector{0.6.4} [Inspector] (【P】[查询回档·汉化]Inspector-0.6.4.jar) 
+	U	flexiblelogin{0.8} [FlexibleLogin] (【P】[灵活登录]FlexibleLogin.jar) 
+	U	stackban{0.2.5} [StackBan] (【P】[物品封禁]stackban-5.1.0-0.2.5.jar) 
+	U	playershops{1.10.2-1.3-maxanier} [Player Shops] (【P】[玩家商店]PlayerShops-1.10.2-1.3-maxanier.jar) 
+	U	keys{1.2} [keys] (【P】[箱子锁]Keys-1.2.1-8-g998b711.jar) 
+	U	adminshop{1.8.2} [AdminShop] (【P】[系统商店·汉化]AdminShop-1.10.2-1.8.2-universal.jar) 
+	U	totaleconomy{1.5.3} [Total Economy] (【P】[经济职业]TotalEconomy-v1.5.3.jar) 
+	U	redprotect{6.9.0} [RedProtect] (【P】[领地]RedProtect-Sponge-6.9.0-b313.jar) 
+	Loaded coremods (and transformers): 
+SpongeCoremod (spongeforge-1.10.2-2202-5.1.0-BETA-2039.jar)
+  org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge,sponge'
+	Type: Dedicated Server (map_server.txt)

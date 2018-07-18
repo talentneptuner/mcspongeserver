@@ -1,0 +1,15 @@
+2018-07-17 17:19:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT 1 FROM users [42102-192]
+2018-07-17 17:19:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "FLEXIBLELOGIN_USERS" not found; SQL statement:
+SELECT 1 FROM flexiblelogin_users [42102-192]
+2018-07-17 17:25:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT 1 FROM users [42102-192]
+2018-07-18 07:41:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT 1 FROM users [42102-192]
+2018-07-18 08:28:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT 1 FROM users [42102-192]

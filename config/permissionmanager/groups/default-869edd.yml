@@ -1,0 +1,57 @@
+permissions:
+- nucleus.back.targets.teleport
+- nucleus.motd.base
+- nucleus.mail.base
+- nucleus.message.selectors
+- nucleus.worth.base
+- nucleus.realname.base
+- nucleus.message.base
+- nucleus.suicide.base
+- nucleus.home.list.base
+- nucleus.mail.send.base
+- inspector.use
+- nucleus.teleport.tptoggle.base
+- nucleus.me.base
+- playershops.create
+- plots.permpack.basicflags
+- nucleus.spawn.base
+- nucleus.ignore.base
+- nucleus.back.base
+- nucleus.info.base
+- nucleus.motd.login
+- nucleus.time.base
+- nucleus.itembuy.base
+- nucleus.rules.base
+- nucleus.teleport.tpa.base
+- totaleconomy.command.jobtoggle
+- redprotect.user
+- plots.permpack.basic
+- totaleconomy.command.jobinfo
+- nucleus.home.base
+- totaleconomy.command.pay
+- nucleus.afk.base
+- nucleus.teleport.tpaccept.base
+- totaleconomy.command.balance
+- keys.use
+- nucleus.warp.list.base
+- nucleus.firstspawn.base
+- nucleus.teleport.tpa.selectors
+- nucleus.teleport.tpdeny.base
+- nucleus.back.targets.death
+- nucleus.back.targets.portal
+- totaleconomy.command.job
+- plots.use
+- totaleconomy.command.balancetop
+- nucleus.itemsell.base
+- nucleus.home.set.base
+- nucleus.list.base
+- plots.plot.2
+- nucleus.warp.base
+- redprotect.flag.all
+- nucleus.helpop.base
+- plots.permpack.basicinbox
+options:
+    prefix: '&2[&a玩家&2]&d◎&r'
+    suffix: ' '
+rank: 233
+default: true

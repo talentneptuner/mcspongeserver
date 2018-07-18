@@ -1,0 +1,50 @@
+[08:28:15] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[08:28:50] [Server thread/INFO]: Loading properties
+[08:28:50] [Server thread/INFO]: Default game type: SURVIVAL
+[08:28:50] [Server thread/INFO]: Generating keypair
+[08:28:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:28:50] [Server thread/INFO]: Using default channel type
+[08:28:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:28:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:28:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:28:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:29:07] [Server thread/INFO]: Preparing level "world"
+[08:29:10] [Server thread/INFO]: Preparing start region for level 0 (world)
+[08:29:12] [Server thread/INFO]: Preparing spawn area: 0%
+[08:29:13] [Server thread/INFO]: Preparing spawn area: 42%
+[08:29:13] [Server thread/WARN]: Skipping BlockEntity with id minecraft:mob_spawner
+[08:29:13] [Server thread/WARN]: Skipping BlockEntity with id minecraft:chest
+[08:29:13] [Server thread/WARN]: Skipping BlockEntity with id minecraft:chest
+[08:29:13] [Server thread/WARN]: Skipping BlockEntity with id minecraft:sign
+[08:29:13] [Server thread/WARN]: Skipping BlockEntity with id minecraft:sign
+[08:29:14] [Server thread/INFO]: Preparing spawn area: 99%
+[08:29:16] [Server thread/INFO]: Preparing start region for level 2 (plot)
+[08:29:17] [Server thread/INFO]: Preparing start region for level 0 (world)
+[08:29:17] [Server thread/INFO]: Preparing start region for level 2 (plot)
+[08:29:17] [Server thread/INFO]: Done (10.392s)! For help, type "help" or "?"
+[08:29:17] [Server thread/INFO]: Redprotect: [Server version: SpongeMinecraftVersion{name=1.10.2, protocol=210}]
+[08:29:18] [Server thread/INFO]: Redprotect: [All configurations loaded!]
+[08:29:18] [Server thread/INFO]: Redprotect: [Language file loaded - Using: EN-US]
+[08:29:18] [Server thread/INFO]: Redprotect: [Loaded 0 regions (file)]
+[08:29:18] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  __
+[08:29:18] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |__
+[08:29:19] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |__|
+[08:29:19] [Server thread/INFO]: ? Redprotect 6.9.0 enabled
+[08:29:19] [Server thread/INFO]: 
+[08:29:19] [Server thread/INFO]: Redprotect: [Auto-save Scheduler: Saving file database every 60 minutes!]
+[08:29:19] [Server thread/INFO]: 将在15秒后清理掉落物
+[08:29:34] [Server thread/INFO]: 已清理5个垃圾.
+[08:29:55] [Server thread/INFO]: neptuner[/127.0.0.1:52473] logged in with entity id 5 in world(0) at (-47.42565167542551, 84.0, -159.21785380476004)
+[08:29:56] [Server thread/INFO]: neptuner joined the game
+[08:29:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2733ms behind, skipping 54 tick(s)
+[08:30:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 22177ms behind, skipping 443 tick(s)
+[08:31:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3216ms behind, skipping 64 tick(s)
+[08:32:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3339ms behind, skipping 66 tick(s)
+[08:32:46] [Server thread/INFO]: 将在15秒后清理掉落物
+[08:32:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3732ms behind, skipping 74 tick(s)
+[08:32:59] [Server thread/INFO]: 已清理1个垃圾.
+[08:33:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3383ms behind, skipping 67 tick(s)
+[08:34:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3675ms behind, skipping 73 tick(s)
+[08:34:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3067ms behind, skipping 61 tick(s)
+[08:34:47] [Server thread/INFO]: neptuner lost connection: Disconnected
+[08:34:47] [Server thread/INFO]: neptuner left the game

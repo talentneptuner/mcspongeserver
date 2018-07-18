@@ -1,0 +1,5 @@
+permissions:
+- '*'
+options:
+    prefix: '&4[&cOP&4]&b◎&r'
+    suffix: '&1[&9有事请找我！&1]'

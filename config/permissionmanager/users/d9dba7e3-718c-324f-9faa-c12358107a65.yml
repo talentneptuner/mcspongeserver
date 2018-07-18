@@ -1,0 +1,6 @@
+permissions:
+- '*'
+groups:
+- default-869edd
+options:
+    language: eng

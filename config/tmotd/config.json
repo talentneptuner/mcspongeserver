@@ -1,0 +1,31 @@
+ConfigVersion=1
+# Message on first join
+firstjoin {
+    # Broadcast the message to all players
+    broadcast=false
+    # Fade in time in TICKS (20 ticks = 1 sec)
+    fadein=15
+    # Fade out time in TICKS
+    fadeout=15
+    # Stay on screen time in TICKS
+    staytime=50
+    # Subtitle message
+    subtitle="&a欢迎 {player_name}!"
+    # Title message
+    title="&e来到服务器"
+}
+# Message on rejoin
+rejoin {
+    # Broadcast the message to all players
+    broadcast=false
+    # Fade in time in TICKS (20 ticks = 1 sec)
+    fadein=15
+    # Fade out time in TICKS
+    fadeout=15
+    # Stay on screen time in TICKS
+    staytime=50
+    # Subtitle message
+    subtitle="&a欢迎回来 {player_name}!"
+    # Title message
+    title="&e玩的开心~"
+}

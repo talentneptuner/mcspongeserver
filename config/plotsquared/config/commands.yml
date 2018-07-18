@@ -1,0 +1,545 @@
+plot:
+  aliases:
+  - plot
+  - plots
+  - p
+  - plotsquared
+  - plot2
+  - p2
+  - ps
+  - '2'
+  - plotme
+  - plotz
+  - ap
+  usage: ''
+  description: ''
+  confirmation: false
+buy:
+  aliases:
+  - buy
+  - b
+  usage: /plot buy
+  description: 购买脚下的地皮
+  confirmation: false
+save:
+  aliases:
+  - save
+  - backup
+  usage: ''
+  description: 保存你的地皮
+  confirmation: false
+load:
+  aliases:
+  - load
+  - restore
+  usage: /plot restore
+  description: 载入地皮
+  confirmation: false
+confirm:
+  aliases:
+  - confirm
+  usage: ''
+  description: 确认操作
+  confirmation: false
+template:
+  aliases:
+  - template
+  usage: /plot template [import|export] <world> <template>
+  description: 创建或使用模板世界
+  confirmation: false
+download:
+  aliases:
+  - download
+  - dl
+  usage: /plot download [schematic|bo3|world]
+  description: 下载你的地皮
+  confirmation: false
+update:
+  aliases:
+  - update
+  - updateplugin
+  usage: /plot update
+  description: 更新插件
+  confirmation: false
+setup:
+  aliases:
+  - setup
+  - create
+  usage: /plot setup
+  description: 安装配置的地皮世界
+  confirmation: false
+area:
+  aliases:
+  - area
+  - world
+  usage: /plot area <create|info|list|tp|regen>
+  description: 创建一个新的地皮区域
+  confirmation: true
+debugsavetest:
+  aliases:
+  - debugsavetest
+  usage: /plot debugsavetest
+  description: 此命令将强制在数据库的地皮的卸载
+  confirmation: false
+debugloadtest:
+  aliases:
+  - debugloadtest
+  usage: /plot debugloadtest
+  description: 此命令将强制在数据库的地皮的重装
+  confirmation: false
+createroadschematic:
+  aliases:
+  - createroadschematic
+  - crs
+  usage: /plot createroadschematic
+  description: 更改你当前的地皮公路的配置
+  confirmation: false
+debugallowunsafe:
+  aliases:
+  - debugallowunsafe
+  usage: /plot debugallowunsafe
+  description: 允许不安全的行为，切换关闭
+  confirmation: false
+regenallroads:
+  aliases:
+  - regenallroads
+  - rgar
+  usage: /plot regenallroads <world> [height]
+  description: 使用公路配置在你现在的地皮图中修改公路
+  confirmation: false
+claim:
+  aliases:
+  - claim
+  - c
+  usage: /plot claim
+  description: 领取脚下地皮
+  confirmation: false
+auto:
+  aliases:
+  - auto
+  - a
+  usage: /plot auto [length,width]
+  description: 随机领取地皮
+  confirmation: false
+visit:
+  aliases:
+  - visit
+  - v
+  - tp
+  - teleport
+  - goto
+  - home
+  - h
+  usage: /plot visit [<player>|<alias>|<world>|<id>] [#]
+  description: 传送到别人的地皮
+  confirmation: false
+set:
+  aliases:
+  - set
+  - s
+  usage: /plot set <biome|alias|home|flag> <value...>
+  description: 设置地皮值
+  confirmation: false
+clear:
+  aliases:
+  - clear
+  - reset
+  usage: /plot clear
+  description: 清空地皮
+  confirmation: true
+delete:
+  aliases:
+  - delete
+  - dispose
+  - del
+  usage: /plot delete
+  description: 删除地皮
+  confirmation: true
+trust:
+  aliases:
+  - trust
+  - t
+  usage: /plot trust <player>
+  description: 允许玩家在地皮建造
+  confirmation: false
+add:
+  aliases:
+  - add
+  - a
+  usage: /plot add <player>
+  description: 给玩家添加自己地皮的使用权限
+  confirmation: false
+deny:
+  aliases:
+  - deny
+  - d
+  - ban
+  usage: /plot deny <player>
+  description: 禁止玩家
+  confirmation: false
+remove:
+  aliases:
+  - remove
+  - r
+  - untrust
+  - ut
+  - undeny
+  - ud
+  usage: /plot remove <player>
+  description: 从地皮删除玩家权限
+  confirmation: false
+info:
+  aliases:
+  - info
+  - i
+  usage: /plot info <id>
+  description: 查看地皮信息
+  confirmation: false
+list:
+  aliases:
+  - list
+  - l
+  - find
+  - search
+  usage: /plot list <forsale|mine|shared|world|top|all|unowned|unknown|player|world|done|fuzzy <search...>> [#]
+  description: 地皮名单
+  confirmation: false
+debug:
+  aliases:
+  - debug
+  usage: /plot debug [msg]
+  description: 显示调试信息
+  confirmation: false
+schematic:
+  aliases:
+  - schematic
+  - sch
+  usage: /plot schematic <arg...>
+  description: 示意图命令
+  confirmation: false
+plugin:
+  aliases:
+  - plugin
+  - version
+  usage: ''
+  description: 显示插件信息
+  confirmation: false
+purge:
+  aliases:
+  - purge
+  usage: /plot purge world:<world> area:<area> id:<id> owner:<owner> shared:<shared> unknown:[true|false]
+  description: 清除这个世界的所有地皮
+  confirmation: true
+reload:
+  aliases:
+  - reload
+  usage: /plot reload
+  description: 刷新配置
+  confirmation: false
+relight:
+  aliases:
+  - relight
+  usage: ''
+  description: 重载你的地皮
+  confirmation: false
+merge:
+  aliases:
+  - merge
+  - m
+  usage: /plot merge <all|n|e|s|w> [removeroads]
+  description: 合并地皮
+  confirmation: true
+debugpaste:
+  aliases:
+  - debugpaste
+  - dp
+  usage: /plot debugpaste
+  description: 上传 settings.yml, worlds.yml, commands.yml and latest.log 到 www.hastebin.com
+  confirmation: false
+unlink:
+  aliases:
+  - unlink
+  - u
+  - unmerge
+  usage: /plot unlink
+  description: 取消合并
+  confirmation: true
+kick:
+  aliases:
+  - kick
+  - k
+  usage: <player>
+  description: 从地皮踢出一个玩家
+  confirmation: false
+rate:
+  aliases:
+  - rate
+  - rt
+  usage: /plot rate [#|next]
+  description: 评价地皮
+  confirmation: false
+debugclaimtest:
+  aliases:
+  - debugclaimtest
+  usage: ''
+  description: 如果你不小心删除了数据库，该命令将尝试恢复基于从情节标志数据的所有地块。执行时间可能会有所不同
+  confirmation: false
+inbox:
+  aliases:
+  - inbox
+  usage: /plot inbox [inbox] [delete <index>|clear|page]
+  description: 查看地皮的评论
+  confirmation: false
+comment:
+  aliases:
+  - comment
+  - msg
+  usage: ''
+  description: 评论地皮
+  confirmation: false
+database:
+  aliases:
+  - database
+  - convert
+  usage: /plots database [area] <sqlite|mysql|import>
+  description: 转换/Backup Storage
+  confirmation: false
+swap:
+  aliases:
+  - swap
+  - switch
+  usage: /plot swap <X;Z>
+  description: 交换两块地皮
+  confirmation: false
+music:
+  aliases:
+  - music
+  usage: /plot music
+  description: 在地皮播放音乐
+  confirmation: false
+debugroadregen:
+  aliases:
+  - debugroadregen
+  usage: /plot debugroadregen
+  description: 重新生成配置的所有道路
+  confirmation: false
+debugexec:
+  aliases:
+  - debugexec
+  - exec
+  - $
+  usage: ''
+  description: 多功能调试命令
+  confirmation: false
+setflag:
+  aliases:
+  - setflag
+  - f
+  - flag
+  - setf
+  - setflag
+  usage: /plot flag <set|remove|add|list|info> <flag> <value>
+  description: 设置地皮地标
+  confirmation: false
+target:
+  aliases:
+  - target
+  usage: /plot target <<plot>|nearest>
+  description: 传送地皮区域
+  confirmation: false
+debugfixflags:
+  aliases:
+  - debugfixflags
+  usage: /plot debugfixflags <world>
+  description: 尝试修复所有标志的世界
+  confirmation: false
+move:
+  aliases:
+  - move
+  - debugmove
+  usage: /plot move <X;Z>
+  description: 移动地皮
+  confirmation: false
+condense:
+  aliases:
+  - condense
+  usage: ''
+  description: 创建地皮世界
+  confirmation: false
+copy:
+  aliases:
+  - copy
+  - copypaste
+  usage: /plot copy <X;Z>
+  description: 复制地皮
+  confirmation: false
+chat:
+  aliases:
+  - chat
+  usage: /plot chat [on|off]
+  description: 切换地皮聊天或关闭
+  confirmation: false
+trim:
+  aliases:
+  - trim
+  usage: /plot trim <world> [regenerate]
+  description: 删除您地皮世界未修改部分
+  confirmation: false
+done:
+  aliases:
+  - done
+  - submit
+  usage: ''
+  description: 标志一个地皮为处理完毕
+  confirmation: false
+continue:
+  aliases:
+  - continue
+  usage: ''
+  description: 继续先前标示完成的一个地皮
+  confirmation: false
+bo3:
+  aliases:
+  - bo3
+  - bo2
+  usage: ''
+  description: 标志地皮处理完毕
+  confirmation: false
+middle:
+  aliases:
+  - middle
+  - center
+  - centre
+  usage: /plot middle
+  description: 传送到地皮中心
+  confirmation: false
+grant:
+  aliases:
+  - grant
+  usage: /plot grant <check|add> [player]
+  description: ''
+  confirmation: false
+setowner:
+  aliases:
+  - setowner
+  - owner
+  - so
+  - seto
+  usage: /plot setowner <player>
+  description: 设置地皮主人
+  confirmation: true
+setdescription:
+  aliases:
+  - setdescription
+  - desc
+  - setdesc
+  - setd
+  - description
+  usage: /plot desc <description>
+  description: 设置地皮描述
+  confirmation: false
+setbiome:
+  aliases:
+  - setbiome
+  - biome
+  - sb
+  - setb
+  - b
+  usage: /plot biome [biome]
+  description: 设置地皮群系
+  confirmation: false
+setalias:
+  aliases:
+  - setalias
+  - alias
+  - sa
+  - name
+  - rename
+  - setname
+  - seta
+  usage: /plot alias <alias>
+  description: 设置地皮名字
+  confirmation: false
+sethome:
+  aliases:
+  - sethome
+  - sh
+  - seth
+  usage: /plot sethome [none]
+  description: 设置地皮为家
+  confirmation: false
+cluster:
+  aliases:
+  - cluster
+  - clusters
+  usage: ''
+  description: 管理一个地皮
+  confirmation: false
+toggle:
+  aliases:
+  - toggle
+  - attribute
+  usage: ''
+  description: 每个用户设置切换
+  confirmation: false
+  chat:
+    aliases:
+    - chat
+    usage: ''
+    description: 切换地皮聊天
+    confirmation: false
+  worldedit:
+    aliases:
+    - worldedit
+    - we
+    - wea
+    usage: ''
+    description: 更改创世神限制
+    confirmation: false
+  titles:
+    aliases:
+    - titles
+    usage: ''
+    description: 重载语言文件
+    confirmation: false
+  chatspy:
+    aliases:
+    - chatspy
+    - spy
+    usage: ''
+    description: 切换管理聊天间谍
+    confirmation: false
+  clear-confirmation:
+    aliases:
+    - clear-confirmation
+    usage: ''
+    description: Toggle autoclear confirmation
+    confirmation: false
+help:
+  aliases:
+  - help
+  - he
+  - '?'
+  usage: help [category|#]
+  description: 打开帮助菜单
+  confirmation: false
+uuidconvert:
+  aliases:
+  - uuidconvert
+  usage: /plot uuidconvert <lower|offline|online>
+  description: 调试UUID转换
+  confirmation: false
+weanywhere:
+  aliases:
+  - weanywhere
+  - wea
+  usage: /plot weanywhere
+  description: 限制创世神
+  confirmation: false
+near:
+  aliases:
+  - near
+  - n
+  usage: /plot near
+  description: Display nearby players
+  confirmation: false

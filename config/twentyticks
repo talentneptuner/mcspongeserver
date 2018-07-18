@@ -1,0 +1,8 @@
+autoPurge=true
+incognito=false
+messages {
+    "cleanup_done"="&b已清理{count}个垃圾."
+    "cleanup_soon"="&b将在15秒后清理掉落物"
+}
+purgeInterval=180
+purgeWarning=15

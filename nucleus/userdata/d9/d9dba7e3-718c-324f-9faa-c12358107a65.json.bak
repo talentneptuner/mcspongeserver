@@ -1,0 +1,30 @@
+{
+  "lastLogout": 1531871107781,
+  "lastLogin": 1531873796082,
+  "notes": [],
+  "mail": [],
+  "lastIP": "/127.0.0.1",
+  "warnings": [],
+  "powertoolToggle": true,
+  "ignoreList": [],
+  "lastLocation": {
+    "world": "6565f2aa-20e5-4423-b240-4d52a5a79324",
+    "rotx": 0.0,
+    "rotz": 0.0,
+    "roty": 0.0,
+    "x": 161.5,
+    "y": 61.0,
+    "z": 261.5
+  },
+  "socialspy": false,
+  "tptoggle": true,
+  "invulnerable": false,
+  "fly": false,
+  "isCommandSpy": false,
+  "kitLastUsedTime": {},
+  "powertools": {},
+  "homes": {},
+  "jailOnNextLogin": false,
+  "isFrozen": false,
+  "vanish": false
+}

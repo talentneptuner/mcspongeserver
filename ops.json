@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "e44b70b2-4462-37db-b5d2-98873a2c9d9c",
+    "name": "smallj",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d9dba7e3-718c-324f-9faa-c12358107a65",
+    "name": "neptuner",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
